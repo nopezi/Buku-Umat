@@ -1,0 +1,32 @@
+fitur kelola pembelian 
+
+admin dapat melihat data pembelian 
+	1. tiap satu pembelian dilakukan oleh satu pelanggan
+	2. tiap 1 pembelian bisa memiliki banyak produk yg dibeli
+	3. 1 pembelian bisa banyak produk, dan 1 produk bisa banyak pembelian
+
+18-06-18
+1
+buku hamka
+100000
+
+20-06-18
+buku hamka
+200000
+
+
+	pembelian 
+	id_pembelian   	1
+	id_pelanggan    kholid
+	id_produk		18-06-2018
+
+
+	pembeliandetail
+	id_pembeliandetail 1  2   3
+	id_pembelian       1  1   1
+	nama_produk        buku hamka  2   3
+	harga_produk       100000
+	berat_produk	   500 gram
+	jumlah_produk      2
+	subberat_produk    1000 gram
+	subharga_produk    200000
